@@ -1,0 +1,130 @@
+body {
+  padding-top: 0cm;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color: #2d4059;
+  padding: 20px;
+}
+
+.logo {
+  color: #f4f4f4;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: #f4f4f4;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #e63946;
+}
+
+.hero {
+  background-image: url('https://wallpaperaccess.com/full/109413.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #2b2424;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #eb2859;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #9d884b;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e5a84e;
+  color: #100f0f;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.button:hover {
+  background-color: #050505;
+  color: white;
+}
+
+.featured-games {
+  background-color: #e9cfcf;
+  padding: 60px;
+}
+
+.featured-games h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #0e2440;
+  text-align: center;
+}
+
+.featured-games ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.featured-games li {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.featured-games h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #081930;
+}
+
+.featured-games p {
+  font-size: 2rem;
+  color: #844a4a;
+}
